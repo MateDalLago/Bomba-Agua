@@ -32,28 +32,26 @@ String Pagina = R"(
       text-align: center; 
     }
     h1 {
-      margin-top: 70px; /* Aumenta el espacio en la parte superior del título */
-      margin-bottom: 155px; /* Espacio en la parte inferior del título */
-      font-size: 100px; /* Tamaño del texto */
-      color: #000000; /* Color del texto */
+      margin-top: 70px; 
+      margin-bottom: 155px; 
+      font-size: 100px; 
+      color: #000000; 
     }
 
-    /* Estilos para el segundo encabezado (BOMBA AGUA) */
     h2 {
-      font-size: 75px; /* Tamaño del texto */
-      margin-bottom: 50px; /* Reduzco el margen inferior */
-      color: #000000; /* Color del texto */
+      font-size: 75px; 
+      margin-bottom: 50px;
+      color: #000000; 
     }
 
-    /* Estilos para los botones */
     button {
-      font-size: 70px; /* Tamaño del texto en los botones */
-      margin: 10px; /* Reduzco el espacio alrededor de los botones */
-      background-color:#529EFF; /* Color de fondo de los botones */
-      color: #000000; /* Color del texto en los botones */
-      border: none; /* Elimina el borde de los botones */
+      font-size: 70px; 
+      margin: 10px; 
+      background-color:#529EFF; 
+      color: #000000; 
+      border: none; 
       padding: 15px 30px;
-      cursor: pointer; /* Cambia el cursor al pasar sobre los botones */
+      cursor: pointer; 
     }
   </style>
 </head>
@@ -64,10 +62,8 @@ String Pagina = R"(
 
   <a href='/on'><button style='height:225px;width:450px'>ON</button></a>
 
-  <!-- Espacio adicional (H3) -->
   <H3> </H3>
 
-  <!-- Botón OFF -->
   <a href='/off'><button style='height:225px;width:450px'>OFF</button></a>
 </body>
 </html>
