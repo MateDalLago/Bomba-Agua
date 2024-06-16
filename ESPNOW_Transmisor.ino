@@ -9,10 +9,10 @@
 
 WiFiServer server(80);
 
-const char* ssid = "Personal-110";
-const char* password = "AEKk6yXPtG";
+const char* ssid = "WiFi-GABI";
+const char* password = "15692638";
 
-uint8_t remoteMac[] = { 0x24, 0xA1, 0x60, 0x2C, 0xCC, 0x76 };
+uint8_t remoteMac[] = { 0x40, 0x91, 0x51, 0x4E, 0x4D, 0xFB };
 
 String header; 
 
